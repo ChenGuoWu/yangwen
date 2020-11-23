@@ -1,0 +1,102 @@
+.el-message {
+	min-width: 300px;
+}
+.el-message .el-message__icon{
+	font-size: 30px !important;
+}
+.el-table th:nth-last-child(2){
+	text-align: center;
+}
+.el-table__row td:last-of-type .cell{
+	display: flex;
+	justify-content: space-between;
+}
+.el-table .btn{
+	color: #00479D;
+}
+.el-table .del_btn{
+	color: #FF5938;;
+}
+
+.popup_box .el-select{
+	width: 100%;
+}
+
+.el-table .el-table_1_column_1 .cell{
+	display: inherit !important;
+}
+
+button{
+	cursor: pointer;
+}
+
+.el-checkbox ::after {
+  transition: none!important;
+}
+
+.el-icon-caret-right ::after {
+  transition: none!important;
+}
+
+.el-select__input {
+    vertical-align: baseline;
+}
+
+.select-box span:focus-within {
+  border: none;
+  outline: none;
+}
+.search_query{
+	width: 240px !important;
+}
+
+.width_2rem{
+	width: 200px !important;
+}
+.table_box{
+	height: 450px;
+	margin-bottom: 0.3rem;
+}
+.el-table{
+	font-size: 12px !important;
+	border-left: 1px solid #E1E8F4 !important;
+	border-right: 1px solid #E1E8F4 !important;
+}
+
+.el-table .el-table__row{
+	color: #333333;
+}
+
+.el-pager .active{
+	background-color: #00479D !important;
+}
+
+button{
+	font-size: 14px !important;
+}
+.el-date-editor .el-range-input, .el-date-editor .el-range-separator{
+	font-size: 14px !important;
+	height: 96% !important;
+}
+.el-date-editor .el-range-separator {
+    line-height: 32x !important;
+}
+.el-input__inner{
+	font-size: 14px !important;
+}
+.el-date-editor .el-range-separator{
+	position: relative;
+	bottom: 2px;
+}
+.el-form-item__label{
+	width: 120px !important;
+}
+.el-form-item__content{
+	margin-left: 120px !important;
+}
+.rule_classification, .organization, .more_level, .table_content{
+	height: 100%;
+}
+.more_level .el-table{
+	height: 97% !important;
+}
